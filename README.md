@@ -9,7 +9,7 @@ Lot of research work is being done in this area to make neural networks more rob
 ## Dataset
 The very poular MNIST dataset was used to perform these experiments. The MNIST database of handwritten digits. It has a training set of 60,000 examples and a test set of 10,000 examples.<br>
 <p align = "center">
-  <img src = "/Images/dataset_1.jpeg" height = 300>
+  <img src = "/Images/dataset_1.png" height = 300>
 </p>
 
 ## Results
