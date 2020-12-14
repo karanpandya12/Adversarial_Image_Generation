@@ -15,14 +15,14 @@ The very poular MNIST dataset was used to perform these experiments. The MNIST d
 ## Results
 #### Creating adversarial images such that the network misclassifies the image as any label other than the ground truth
 <p align = "center">
-  <img src = "/Images/result_1.png" height = 300><br>
-  <img src = "/Images/result_2.png" height = 300>
+  <img src = "/Images/result_1.png" height = 250><br>
+  <img src = "/Images/result_2.png" height = 250>
 </p>
 
 #### Creating adversarial images such that the network misclassifies the image as a chosen target label
 <p align = "center">
-  <img src = "/Images/result_3.png" height = 300><br>
-  <img src = "/Images/result_4.png" height = 300>
+  <img src = "/Images/result_3.png" height = 250><br>
+  <img src = "/Images/result_4.png" height = 250>
 </p>
 
 #### Retraining the network and checking the predictions on adversarial images generated using the old network
@@ -31,5 +31,5 @@ The purpose of this experiment was to see whether adversarial images which fool 
 
 It was observed that in many cases the new network was able to predict the correct label. But it was still prone to errors and occassionaly predicted the adversarial label. In very rare cases, it predicts a random wrong label which is different from both the adversarial label and the ground truth label. <br>
 <p align = "center">
-  <img src = "/Images/result_5.png" height = 300>
+  <img src = "/Images/result_5.png" height = 500>
 </p>
